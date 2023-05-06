@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    color: #03264c;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h3 {
+    color: #03264c;
+    text-align: center;
+    margin: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.grupo-de-registros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    border: none;
+}
+
+.input-selecto {
+    width: 350px;
+}
+
+option {
+    border-radius: 6px;
+}
+
+.intereses {
+    margin: 10px;
+}
+
+.botones {
+    display: flex;
+    width: 100vw;
+    max-width: 350px;
+    background-color: #ebebeb;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+}
+.botones input {
+    background-color: #EAC926;
+    cursor: pointer;
+}
+.botones input:hover {
+    background-color: #0022AA;
+    color: white;
+}

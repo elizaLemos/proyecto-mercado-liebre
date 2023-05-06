@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form {
+    color: #03264c;
+    background-color:  #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 10px;
+}
+.botones-login {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+.botones-login-enviar {
+    text-align: center;
+    background-color: #EAC926;
+    cursor: pointer;
+   position:relative
+}
+
+.botones-login-enviar:hover {
+background-color: #0022AA;
+color: white;
+}
+
+input {
+    border-radius: 6px;
+padding: 5px;
+width: 300px;
+border: none;
+}
